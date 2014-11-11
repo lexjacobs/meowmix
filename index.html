@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Meow-Mix</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-
-<div class="container">
-
-<div class="button1">
-<img class="blue-button" src="img/button-up.png">
-</div>
-<div class="button2">
-<img class="blue-button" src="img/button-down.png">
-</div>
-
-</div>
-
-<div id="sound-span">.</div>
-
-<script src="lib/jquery.js"></script>
-<script src="lib/underscore.js"></script>
-<script src="lib/backbone.js"></script>
-<script src="script.js"></script>
-<script src="lib/livejs.js"></script>
+    <head>
+        <title>Meow-Mix</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <audio id="control" src="catmeow.mp3" type="audio/mp3" preload="auto"></audio>
+    <div class="container">
+        <div class="button1">
+            <img class="blue-button" src="img/button-up.png">
+        </div>
+        <div class="button2">
+            <img class="blue-button" src="img/button-down.png">
+        </div>
+    </div>
+    <script src="lib/jquery.js"></script>
+    <!-- <script src="lib/underscore.js"></script> -->
+    <!-- <script src="lib/backbone.js"></script> -->
+    <script src="script.js"></script>
+    <!-- <script src="lib/livejs.js"></script> -->
 </body>
 </html>

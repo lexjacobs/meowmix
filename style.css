@@ -1,3 +1,7 @@
-.blue-button {
+.container {
+}
 
+.blue-button {
+    position: relative;
+    width: 80%;
 }
