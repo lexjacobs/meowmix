@@ -1,10 +1,10 @@
 $(function() {
 
+        var sound = $("#control")[0];
+        sound.load();
 
     $('.button1').on('click', function() {
-        var sound = $("#control")[0];
 
-        sound.load();
         sound.play();
 
         return null;
