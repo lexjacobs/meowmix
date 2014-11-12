@@ -1,7 +1,30 @@
-.container {
+body {
+    background-color: #FF00FF;
 }
 
-.blue-button {
+.header {
+    margin-left: 7%;
+    color: white;
+    line-height: 1px;
+    font-size: 30px;
+}
+
+#beta-label {
+    float: right;
+    margin-right: 22%
+}
+
+.container {
+    margin-top: 30%;
+}
+
+img {
+    width: 45%;
+}
+
+
+/*.blue-button {
     position: relative;
     width: 80%;
 }
+*/

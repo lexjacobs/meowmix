@@ -5,19 +5,44 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-    <audio id="control" src="cat10.wav" type="audio/mpeg" preload="auto"></audio>
+    <audio id="control0" src="cat10.wav" type="audio/mpeg" preload="auto"></audio>
+    <audio id="control1" src="cat11.wav" type="audio/mpeg" preload="auto"></audio>
+    <audio id="control2" src="kittenmeow.wav" type="audio/mpeg" preload="auto"></audio>
+    <audio id="control3" src="goat.wav" type="audio/mpeg" preload="auto"></audio>
+
+<div class="header">
+<pre> __  __                         __  __ _      </pre>
+<pre>|  \/  | ___  _____      __    |  \/  (_)_  __</pre>
+<pre>| |\/| |/ _ \/ _ \ \ /\ / /____| |\/| | \ \/ /</pre>
+<pre>| |  | |  __/ (_) \ V  V /_____| |  | | |>  < </pre>
+<pre>|_|  |_|\___|\___/ \_/\_/      |_|  |_|_/_/\_\</pre>
+<pre id="beta-label">(beta)</pre>
+</div>
+
     <div class="container">
-        <div class="button1">
-            <img class="blue-button" src="img/button-up.png">
+        <div class="row1">
+            <span class="row1-col1">
+                <img class="sticker0" src="img/sticker3sm.png">
+            </span>
+            <span class="row1-col2">
+                <img class="sticker1" src="img/sticker1sm.png">
+            </span>
         </div>
-        <div class="button2">
-            <img class="blue-button" src="img/button-down.png">
+        <div class="row2">
+            <span class="row2-col1">
+                <img class="sticker2" src="img/sticker2sm.png">
+            </span>
+            <span class="row2-col2">
+                <img class="sticker3" src="img/sticker0.png">
+            </span>
         </div>
     </div>
+
+
     <script src="lib/jquery.js"></script>
     <!-- <script src="lib/underscore.js"></script> -->
     <!-- <script src="lib/backbone.js"></script> -->
     <script src="script.js"></script>
-    <!-- <script src="lib/livejs.js"></script> -->
+    <script src="lib/livejs.js"></script>
 </body>
 </html>
