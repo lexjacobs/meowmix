@@ -18,6 +18,7 @@ $(function() {
     });
 
     $('.sticker1').on('click', function() {
+        // sound1.playbackRate = 0.5;
         sound1.play();
         return null;
     });
