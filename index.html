@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<!-- <script>window.twttr = (function(d, s, id) {
+<script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
     t = window.twttr || {};
   if (d.getElementById(id)) return t;
   js = d.createElement(s);
   js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
+  js.src = "http://platform.twitter.com/widgets.js";
   fjs.parentNode.insertBefore(js, fjs);
 
   t._e = [];
@@ -22,14 +22,18 @@
   };
 
   return t;
-}(document, "script", "twitter-wjs"));</script> -->
+}(document, "script", "twitter-wjs"));</script>
 
-<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- <script src="http://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+<script src="lib/jquery.js"></script>
+<script src="script.js"></script>
 
 <body>
   
-<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-text="Press cat heads, get sound" data-url="http://meowmix.azurewebsites.net/" data-via="lexjacobs" data-hashtags="meowmix" data-show-count="false">Tweet</a>
   
+<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-text="something" data-url="http://meowmix.azurewebsites.net/" data-via="lexjacobs" data-hashtags="mailmix" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>  
+    
     <audio id="control0" src="cat10.wav" type="audio/mpeg" preload="auto"></audio>
     <audio id="control1" src="catmeowedit1.wav" type="audio/mpeg" preload="auto"></audio>
     <audio id="control2" src="kittenmeow.wav" type="audio/mpeg" preload="auto"></audio>
@@ -68,12 +72,6 @@
             
     </div>
 
-
-    <script src="lib/jquery.js"></script>
-    <!-- <script src="lib/underscore.js"></script> -->
-    <!-- <script src="lib/backbone.js"></script> -->
-    <script src="script.js"></script>
-    <!-- <script src="lib/livejs.js"></script> -->
 </body>
 
 </html>
